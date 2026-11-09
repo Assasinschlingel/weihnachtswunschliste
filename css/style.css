@@ -263,8 +263,8 @@ body {
   background: #f7f9ff;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 28px;
+  justify-content: space-between;
+  padding: 0 48px;
 }
 
 .card-top-tier .rating-stage,

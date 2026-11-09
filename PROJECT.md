@@ -85,12 +85,12 @@ Alle Preise und Links wurden recherchiert, nicht erfunden. Wo aktuell kein verl�
 
 | # | Name (kurz) | Wichtigkeit | Badges | Preis-Status | Link |
 |---|---|---|---|---|---|
-| 1 | Homeserver (GMKtec NucBox M5 Ultra, 1 TB / 36 GB RAM) | 11/10 | 🏠 11/10 | Offen – Preis schwankt stark je Händler/Konfiguration | [GMKtec offizieller Shop](https://de.gmktec.com/products/gmktec-nucbox-m5-ultra-amd-ryzen-7-7730u) |
+| 1 | Homeserver (GMKtec NucBox M5 Ultra, 1 TB / 32 GB RAM) | 11/10 | 🏠 11/10 | Offen – Preis schwankt stark je Händler | [GMKtec offizieller Shop](https://de.gmktec.com/products/gmktec-nucbox-m5-ultra-amd-ryzen-7-7730u) |
 | 2 | Claude-Gutschein „Könnte nicht ohne leben" (3 Monate Claude-Abo) | Höchste Stufe (über allem) | 👑 Höchste Priorität | Kein Shop-Preis – persönlicher Gutschein | Kein Produktlink (siehe unten) |
-| 3 | iPhone 15 Pro | 8,8/10 | – | Offen – Apple führt das Modell evtl. nicht mehr regulär, Preis unklar | [Apple.de Shop](https://www.apple.com/de/shop/buy-iphone) *(ggf. auf aktuelles Modell/Refurbished prüfen)* |
+| 3 | iPhone 15 Pro | 8,8/10 | – | Offen – Preis je nach Amazon-Angebot/Restbestand | [Amazon.de Produktsuche „iPhone 15 Pro"](https://www.amazon.de/s?k=iPhone+15+Pro) *(ASIN beim Kauf eintragen)* |
 | 4 | DJI Osmo Action 4 (+ ca. 30 € Zubehör) | 8,8/10 (Sehr wichtig) | 👨‍👩‍👧‍👦 Für die ganze Familie | Offen – Amazon-Deal-Preis schwankt stark (zuletzt ca. 170–230 €) | [DJI offizieller Shop](https://www.dji.com/de/osmo-action-4) |
-| 5 | AYN Thor | 7/10 | – | Offen – mehrere Preiserhöhungen 2026, Modellvariante (Base/Pro/Max) noch zu wählen | [AYN offizieller Shop](https://ayn.gg) *(Modellvariante bitte bestätigen)* |
-| 6 | Raspberry Pi 4 | 8/10 | – | Offen – Preis abhängig von RAM-Variante (1/2/4/8 GB) | [Raspberry Pi offizieller Shop](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) |
+| 5 | AYN Thor Pro (12 GB / 256 GB) | 7/10 | – | Offen – mehrere Preiserhöhungen 2026, aktueller Preis im Shop zu prüfen | [AYN offizieller Shop](https://ayn.gg) |
+| 6 | Raspberry Pi 4 (4 GB RAM) | 8/10 | – | Offen – aktueller Preis im Shop zu prüfen | [Raspberry Pi offizieller Shop](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) |
 | 7 | O2 Internet-Upgrade auf 150 Mbit/s | Extrem hoch (10/10) | 👨‍👩‍👧‍👦 Für die ganze Familie, 🤝 Auch für Freunde | Kein Aufpreis erfunden – monatlicher Mehrpreis muss bei o2 erfragt werden | [o2 Mein o2 / Tarif-Upgrade](https://www.o2online.de/dsl-internet/) |
 | 8 | 256-GB-microSD-Karte (SanDisk Extreme microSDXC 256 GB) | 6/10 | – | Offen – Amazon-Preis schwankt stark (zuletzt zwischen ca. 30 € und 70 € gesehen) | [Amazon.de Produktsuche „SanDisk Extreme microSDXC 256GB"](https://www.amazon.de/s?k=SanDisk+Extreme+microSDXC+256GB) *(ASIN beim Kauf eintragen)* |
 | 9 | Guild Wars 2: Heart of Thorns + Path of Fire | Noch nicht festgelegt – entfällt ggf. vor Weihnachten | ⏳ Nur solange ich bis Weihnachten noch spiele | ca. 30 € (Expansion Starter Pack, offizieller Bundle-Preis) | [Guild Wars 2 offizieller Shop](https://www.guildwars2.com/de/shop/) |
@@ -212,15 +212,15 @@ Diese Liste wird mit den Daten aus Abschnitt 5 befüllt, sobald Bilder vorliegen
 
 **Fehlende Produktbilder:** Für alle 16 Wünsche fehlen noch die tatsächlichen Produktfotos.
 
-**Preise, die aktuell nicht verlässlich/aktuell recherchierbar waren** (Amazon-/Marktpreise schwanken ständig, hier wurde bewusst nichts erfunden):
-- Homeserver (GMKtec NucBox M5 Ultra) – zusätzlich: Die 36-GB-RAM-Konfiguration war bei der Recherche nicht auffindbar (offizielle Varianten scheinen eher 16/32 GB zu sein) – bitte beim Kauf verifizieren, ob 36 GB als Konfiguration existiert.
-- iPhone 15 Pro – zusätzlich: evtl. nicht mehr regulär bei Apple erhältlich, da neuere Modelle existieren. Ggf. auf aktuelles Nachfolgemodell oder „Refurbished"-Angebot umstellen.
+**Preise, die aktuell nicht verlässlich/aktuell recherchierbar waren** (Amazon-/Marktpreise schwanken ständig, hier wurde bewusst nichts erfunden; alle Modell-/Variantenfragen sind inzwischen geklärt – offen ist nur noch der jeweils aktuelle Kauf-Preis bzw. die ASIN kurz vor dem Launch):
+- Homeserver (GMKtec NucBox M5 Ultra, 1 TB / 32 GB RAM – festgelegt)
+- iPhone 15 Pro (Link zeigt auf Amazon.de-Angebot statt Apple Shop – festgelegt)
 - DJI Osmo Action 4 Zubehör (die genannten ~30 € sind vom Nutzer vorgegeben, nicht recherchiert)
-- AYN Thor – Modellvariante (Base/Pro/Max) und genaue Speichergröße noch zu bestätigen
-- Raspberry Pi 4 – RAM-Variante (1/2/4/8 GB) noch zu wählen
+- AYN Thor Pro, 12 GB / 256 GB (Variante festgelegt)
+- Raspberry Pi 4, 4 GB RAM (Variante festgelegt)
 - o2-Upgrade – monatlicher Mehrpreis muss direkt bei o2/Mein o2 erfragt werden, da online nicht einsehbar
 - PS5 Controller, Bambu Lab A1 mini, Anker PowerConf C200, AirTags, Rolex – Richtwerte in Abschnitt 5 genannt, aber vor Launch im jeweiligen Shop zu bestätigen
-- 256-GB-microSD-Karte (SanDisk Extreme), Gaming-Headset (Attack Shark L80), Smart Fridge (Samsung Family Hub) – Modelle jetzt festgelegt, genauer Kauf-Preis/ASIN aber noch offen (siehe Abschnitt 5)
+- 256-GB-microSD-Karte (SanDisk Extreme), Gaming-Headset (Attack Shark L80), Smart Fridge (Samsung Family Hub) – Modelle festgelegt, genauer Kauf-Preis/ASIN aber noch offen (siehe Abschnitt 5)
 
 **Konzeptionelle offene Punkte (aus der ersten Planungsrunde, weiterhin offen):**
 - Ob „Nein"-Wünsche irgendwo einsehbar/rückgängig machbar sein sollen (aktuell: ja, über Zurück-Navigation).
@@ -229,4 +229,4 @@ Diese Liste wird mit den Daten aus Abschnitt 5 befüllt, sobald Bilder vorliegen
 
 ## 12. Nächste Schritte
 
-Warten auf: Produktbilder, finale Preise/Links für die oben gelisteten offenen Punkte, sowie Entscheidung zu den generischen Produkten (SD-Karte, Headset, Smart Fridge). Erst danach beginnt die vollständige Programmierung gemäß diesem Konzept.
+Alle Modell-/Variantenfragen sind geklärt. Es fehlen jetzt nur noch: Produktbilder und die final im jeweiligen Shop geprüften Preise/ASINs (siehe Abschnitt 11). Sobald diese vorliegen, kann mit der vollständigen Programmierung gemäß diesem Konzept begonnen werden.

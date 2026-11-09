@@ -25,7 +25,12 @@ let currentIndex = 0;
 let ratings = {};
 let revealed = {};
 let eHeld = false;
+let lockHeld = false;
 let currentImageIndex = 0;
+
+function dodgeAllowed() {
+  return !(eHeld || lockHeld);
+}
 
 const wishById = Object.fromEntries(WISHES.map((w) => [w.id, w]));
 
@@ -44,6 +49,15 @@ function init() {
   document.addEventListener("keyup", (e) => {
     if (e.key.toLowerCase() === "e") eHeld = false;
   });
+
+  const lockBtn = document.getElementById("lockNoBtn");
+  const setLock = (value) => { lockHeld = value; };
+  lockBtn.addEventListener("mousedown", () => setLock(true));
+  lockBtn.addEventListener("mouseup", () => setLock(false));
+  lockBtn.addEventListener("mouseleave", () => setLock(false));
+  lockBtn.addEventListener("touchstart", (e) => { e.preventDefault(); setLock(true); }, { passive: false });
+  lockBtn.addEventListener("touchend", () => setLock(false));
+  lockBtn.addEventListener("touchcancel", () => setLock(false));
 
   document.getElementById("prevBtn").addEventListener("click", () => goTo(currentIndex - 1));
   document.getElementById("nextBtn").addEventListener("click", () => goTo(currentIndex + 1));
@@ -237,10 +251,17 @@ function renderRatingButtons(wish, rating) {
   noBtn.classList.toggle("is-selected", rating === "no");
 
   yesBtn.onclick = () => rate("yes");
-  noBtn.onclick = () => rate("no");
+  noBtn.onclick = (e) => {
+    if (wish.evasiveNoButton && dodgeAllowed()) {
+      e.preventDefault();
+      placeNoButtonRandomly();
+      return;
+    }
+    rate("no");
+  };
 
   setupDodge(wish.evasiveNoButton);
-  hint.style.display = wish.evasiveNoButton ? "block" : "none";
+  hint.style.display = wish.evasiveNoButton ? "flex" : "none";
 
   // Startposition pro Karte zurücksetzen: zentriert neben Ja, bis zum ersten Ausweich-Trigger
   noBtn.style.position = "";
@@ -252,6 +273,7 @@ function renderRatingButtons(wish, rating) {
 
 let dodgeMoveHandler = null;
 let dodgeEnterHandler = null;
+let dodgeTouchHandler = null;
 
 function setupDodge(isEvasive) {
   const stage = document.getElementById("ratingStage");
@@ -260,23 +282,32 @@ function setupDodge(isEvasive) {
   if (dodgeMoveHandler) {
     stage.removeEventListener("mousemove", dodgeMoveHandler);
     noBtn.removeEventListener("mouseenter", dodgeEnterHandler);
+    stage.removeEventListener("touchstart", dodgeTouchHandler);
+    stage.removeEventListener("touchmove", dodgeTouchHandler);
     dodgeMoveHandler = null;
     dodgeEnterHandler = null;
+    dodgeTouchHandler = null;
   }
 
   if (!isEvasive) return;
 
   dodgeMoveHandler = (e) => dodgeIfTooClose(e.clientX, e.clientY);
   dodgeEnterHandler = () => {
-    if (!eHeld) placeNoButtonRandomly();
+    if (dodgeAllowed()) placeNoButtonRandomly();
+  };
+  dodgeTouchHandler = (e) => {
+    const touch = e.touches[0];
+    if (touch) dodgeIfTooClose(touch.clientX, touch.clientY);
   };
 
   stage.addEventListener("mousemove", dodgeMoveHandler);
   noBtn.addEventListener("mouseenter", dodgeEnterHandler);
+  stage.addEventListener("touchstart", dodgeTouchHandler, { passive: true });
+  stage.addEventListener("touchmove", dodgeTouchHandler, { passive: true });
 }
 
 function dodgeIfTooClose(clientX, clientY) {
-  if (eHeld) return;
+  if (!dodgeAllowed()) return;
   const noBtn = document.getElementById("noBtn");
   const rect = noBtn.getBoundingClientRect();
   const margin = 55;

@@ -2,6 +2,7 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Meine Weihnachtswunschliste</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -46,7 +47,10 @@
         <button class="btn btn-yes" id="yesBtn">✓ Ja</button>
         <button class="btn btn-no" id="noBtn">✕ Nein</button>
       </div>
-      <p class="dodge-hint" id="dodgeHint">🏃 Dieser Button weicht aus! Halte <strong>E</strong> gedrückt, um ihn zu fixieren.</p>
+      <div class="dodge-hint" id="dodgeHint">
+        <span>🏃 Dieser Button weicht aus! Halte <strong>E</strong> gedrückt, um ihn zu fixieren</span>
+        <button class="btn btn-small btn-lock" id="lockNoBtn">🔒 Oder hier halten</button>
+      </div>
     </main>
 
     <div class="nav-row">

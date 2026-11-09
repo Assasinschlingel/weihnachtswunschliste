@@ -12,7 +12,8 @@ Das Referenzbild (aus einem Stream) dient **nur** als Stil-Inspiration (dunkles 
 
 ```
 ┌─────────────────────────────────────────┐
-│              (Kopfbereich, optional)      │
+│   🎄 Meine Weihnachtswunschliste 2026     │
+│   Kurzer Hinweistext zur Bedienung        │
 │                                           │
 │        ┌───────────────────────┐         │
 │        │                       │         │
@@ -45,6 +46,10 @@ Zentrale Produktkarte, darunter Navigation zwischen Wünschen (Pfeile + Zähler 
 | Produktlink | Button „Auf Amazon ansehen" bzw. „Beim Anbieter ansehen" (abhängig vom Shop-Typ, siehe Abschnitt 6) – entfällt bei persönlichen Gutscheinen |
 
 Nach einer Bewertung (Ja oder Nein) wechselt die Karte automatisch zum nächsten Wunsch. Bereits bewertete Wünsche sind über die Pfeil-Navigation weiterhin änderbar (z. B. Ja → Nein nachträglich korrigierbar).
+
+### Kopfbereich
+
+Oberhalb der Produktkarte steht eine kurze Begrüßungssektion: Überschrift (z. B. „Meine Weihnachtswunschliste 2026") plus ein bis zwei Sätze Hinweistext zur Bedienung (Ja/Nein, Preis aufdecken, Warenkorb). Bleibt beim Durchklicken der Wünsche fix stehen, nimmt aber nur wenig vertikalen Platz ein.
 
 ## 4. Wichtigkeitssystem & Badges
 
@@ -87,15 +92,17 @@ Alle Preise und Links wurden recherchiert, nicht erfunden. Wo aktuell kein verl�
 | 5 | AYN Thor | 7/10 | – | Offen – mehrere Preiserhöhungen 2026, Modellvariante (Base/Pro/Max) noch zu wählen | [AYN offizieller Shop](https://ayn.gg) *(Modellvariante bitte bestätigen)* |
 | 6 | Raspberry Pi 4 | 8/10 | – | Offen – Preis abhängig von RAM-Variante (1/2/4/8 GB) | [Raspberry Pi offizieller Shop](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) |
 | 7 | O2 Internet-Upgrade auf 150 Mbit/s | Extrem hoch (10/10) | 👨‍👩‍👧‍👦 Für die ganze Familie, 🤝 Auch für Freunde | Kein Aufpreis erfunden – monatlicher Mehrpreis muss bei o2 erfragt werden | [o2 Mein o2 / Tarif-Upgrade](https://www.o2online.de/dsl-internet/) |
-| 8 | 256-GB-microSD-Karte | 6/10 | – | Offen – konkretes Modell/Marke noch nicht festgelegt | *(folgt, sobald Modell feststeht)* |
+| 8 | 256-GB-microSD-Karte (SanDisk Extreme microSDXC 256 GB) | 6/10 | – | Offen – Amazon-Preis schwankt stark (zuletzt zwischen ca. 30 € und 70 € gesehen) | [Amazon.de Produktsuche „SanDisk Extreme microSDXC 256GB"](https://www.amazon.de/s?k=SanDisk+Extreme+microSDXC+256GB) *(ASIN beim Kauf eintragen)* |
 | 9 | Guild Wars 2: Heart of Thorns + Path of Fire | Noch nicht festgelegt – entfällt ggf. vor Weihnachten | ⏳ Nur solange ich bis Weihnachten noch spiele | ca. 30 € (Expansion Starter Pack, offizieller Bundle-Preis) | [Guild Wars 2 offizieller Shop](https://www.guildwars2.com/de/shop/) |
 | 10 | PS5 Controller (DualSense) | 6/10 | – | Offen – Listenpreis zuletzt ca. 75 €, Angebote schwanken | [PlayStation Direct](https://direct.playstation.com/de-de/) |
-| 11 | Gaming-Headset | 8/10 | – | Offen – konkretes Modell noch nicht festgelegt, ca. 30 € laut Vorgabe | *(folgt, sobald Modell feststeht)* |
+| 11 | Gaming-Headset (Attack Shark L80) | 8/10 | – | ca. 28–30 € (Herstellerangabe), Amazon-Preis zusätzlich zu prüfen | [Attack Shark offizieller Shop](https://attackshark.com/products/l80-wireless-gaming-headset-noise-canceling) |
 | 12 | 3D-Drucker (Bambu Lab A1 mini) | 4/10 | – | Offen – Preis abhängig von Bundle (Solo vs. Combo mit AMS Lite) | [Bambu Lab offizieller Shop](https://eu.store.bambulab.com/collections/a1-series/products/a1-mini) |
 | 13 | Webcam (Anker PowerConf C200) | 7,5/10 | – | Offen – Preis schwankt je nach Angebot | [Anker offizieller Shop](https://www.anker.com/de-de) *(Produktseite verifizieren)* |
 | 14 | AirTags | 6/10 | – | Offen – aktueller Preis auf Apple-Seite zu prüfen | [Apple.de Shop](https://www.apple.com/de/shop/buy-airtag/airtag) |
-| 15 | Smart Fridge (Display + Eiswürfelfunktion) | 7/10 | – | Offen – konkretes Modell noch nicht festgelegt, Preis stark modellabhängig | *(folgt, sobald Modell feststeht)* |
+| 15 | Smart Fridge (Samsung Family Hub, z. B. RS6HA8891SL/EG) | 7/10 | – | Offen – je nach Händler ca. 2.000–3.000 € | [Samsung Family Hub Serie](https://www.samsung.com/de/refrigerators/side-by-side/refrigerator-sbs-family-hub-614l-silver-rs90f67betef/) |
 | 16 | Rolex Yacht-Master II Gold | Spaßwunsch (keine ernste Skala) | 😂 Nur Spaß / Troll-Wunsch | Offen – Referenz-Preis laut rolex.com Gelbgold-Modell ca. 57.800 USD, Preis auf rolex.de zu verifizieren | [Rolex offizielle Seite](https://www.rolex.com/de-de/watches/yacht-master-ii) |
+
+**Hinweis zu #15 (Smart Fridge):** Auf ausdrücklichen Wunsch wird dieser Eintrag auf der Website wie ein ganz normaler, ernst gemeinter Wunsch dargestellt – ohne Troll-Badge, ohne humorvollen Unterton. Nur hier in der internen Projektdokumentation ist festgehalten, dass es sich eigentlich ähnlich wie bei der Rolex um einen augenzwinkernden Wunsch handelt.
 
 ### Claude-Gutschein – Sonderbehandlung
 
@@ -213,14 +220,9 @@ Diese Liste wird mit den Daten aus Abschnitt 5 befüllt, sobald Bilder vorliegen
 - Raspberry Pi 4 – RAM-Variante (1/2/4/8 GB) noch zu wählen
 - o2-Upgrade – monatlicher Mehrpreis muss direkt bei o2/Mein o2 erfragt werden, da online nicht einsehbar
 - PS5 Controller, Bambu Lab A1 mini, Anker PowerConf C200, AirTags, Rolex – Richtwerte in Abschnitt 5 genannt, aber vor Launch im jeweiligen Shop zu bestätigen
-
-**Noch kein konkretes Produkt ausgewählt (generische Vorgabe ohne Marke/Modell):**
-- 256-GB-microSD-Karte – Marke/Modell offen
-- Gaming-Headset (~30 €) – Marke/Modell offen
-- Smart Fridge mit Display & Eiswürfelfunktion – Marke/Modell offen
+- 256-GB-microSD-Karte (SanDisk Extreme), Gaming-Headset (Attack Shark L80), Smart Fridge (Samsung Family Hub) – Modelle jetzt festgelegt, genauer Kauf-Preis/ASIN aber noch offen (siehe Abschnitt 5)
 
 **Konzeptionelle offene Punkte (aus der ersten Planungsrunde, weiterhin offen):**
-- Ob es eine Kopf-/Begrüßungssektion geben soll (z. B. Name des Beschenkten, Hinweistext).
 - Ob „Nein"-Wünsche irgendwo einsehbar/rückgängig machbar sein sollen (aktuell: ja, über Zurück-Navigation).
 - Feintuning der Wichtigkeits-Visualisierung (Sterne vs. Balken vs. Badges) und der Sonderstufe für den Claude-Gutschein.
 - Exakte ASIN je Amazon-Produkt (erst ablesbar, sobald echte Produktseiten-Links vom Nutzer vorliegen oder die Produktbilder/Links final bestätigt sind).

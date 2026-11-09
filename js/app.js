@@ -126,6 +126,14 @@ function renderMedia(wish) {
   const showNav = wish.images.length > 1;
   prevBtn.style.display = showNav ? "flex" : "none";
   nextBtn.style.display = showNav ? "flex" : "none";
+
+  const brandIcon = document.getElementById("mediaBrandIcon");
+  if (wish.brandIcon) {
+    brandIcon.src = wish.brandIcon;
+    brandIcon.style.display = "block";
+  } else {
+    brandIcon.style.display = "none";
+  }
 }
 
 function shiftImage(delta) {
@@ -199,9 +207,13 @@ function renderPrice(wish, isRevealed) {
 
   revealBtn.style.display = "none";
   priceValue.style.display = "inline-block";
-  priceValue.textContent = wish.priceKnown && typeof wish.price === "number"
-    ? `${wish.price.toFixed(2).replace(".", ",")} €`
-    : "Noch nicht festgelegt";
+  if (wish.priceDisplay) {
+    priceValue.textContent = wish.priceDisplay;
+  } else {
+    priceValue.textContent = wish.priceKnown && typeof wish.price === "number"
+      ? `${wish.price.toFixed(2).replace(".", ",")} €`
+      : "Noch nicht festgelegt";
+  }
 }
 
 function renderLink(wish) {
@@ -338,9 +350,16 @@ function openCartModal() {
     const row = document.createElement("div");
     row.className = "cart-row";
 
-    const priceText = revealed[wish.id] && wish.priceKnown && typeof wish.price === "number"
-      ? `${wish.price.toFixed(2).replace(".", ",")} €`
-      : "Preis nicht aufgedeckt";
+    let priceText = "Preis nicht aufgedeckt";
+    if (revealed[wish.id]) {
+      if (wish.priceDisplay) {
+        priceText = wish.priceDisplay;
+      } else if (wish.priceKnown && typeof wish.price === "number") {
+        priceText = `${wish.price.toFixed(2).replace(".", ",")} €`;
+      } else {
+        priceText = "Noch nicht festgelegt";
+      }
+    }
 
     const linkLabel = LINK_LABELS[wish.linkType];
     const linkHtml = linkLabel && wish.url

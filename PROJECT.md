@@ -66,7 +66,8 @@ Die Wichtigkeit wird als Zahl (Basis: /10) plus Textstufe und Balkenanzeige darg
 | 10/10 | Extrem hoch |
 | 11/10 | Extrem wichtig |
 | „Oberhalb der Skala" | Absolute Top-Priorität – eigene, optisch herausgehobene Sonderstufe (ausschließlich für den Claude-Gutschein, kein numerischer Wert, kein Vergleich mit den übrigen Balken) |
-| Sonderfall | Troll-/Spaßwunsch – zeigt statt der Skala ein humorvolles Badge statt einer ernsten Wichtigkeitsangabe (Rolex) |
+
+Rolex und Smart Fridge laufen bewusst **ohne** Sonderbehandlung über diese normale Skala (6/10 bzw. 7/10) – kein Troll-/Spaß-Badge mehr.
 
 ### 4.2 Badges (pro Wunsch frei kombinierbar)
 
@@ -75,39 +76,39 @@ Die Wichtigkeit wird als Zahl (Basis: /10) plus Textstufe und Balkenanzeige darg
 - 👨‍👩‍👧‍👦 **Für die ganze Familie** – DJI-Zubehör, O2-Upgrade
 - 🤝 **Auch für Freunde** – O2-Upgrade
 - ⏳ **Nur solange ich bis Weihnachten noch spiele** – Guild Wars 2
-- 😂 **Nur Spaß / Troll-Wunsch** – Rolex
 
 Badges werden als kleine farbige Pillen über oder unter dem Namen angezeigt, unabhängig von der Wichtigkeits-Skala.
 
 ## 5. Die 16 Wünsche
 
-Alle Preise und Links wurden recherchiert, nicht erfunden. Wo aktuell kein verlässlicher, stabiler Preis/Link auffindbar war, steht das explizit als offener Punkt (Abschnitt 11) – lieber „noch zu prüfen" als eine geratene Zahl. Für 14 von 16 Wünschen liegt inzwischen ein echtes Produktfoto vor (von der jeweiligen Hersteller-/Markenseite heruntergeladen, siehe `assets/images/<id>/`); Claude-Gutschein und o2-Upgrade bleiben als Dienstleistung/Gutschein ohne Foto.
+Alle Preise und Links wurden recherchiert, nicht erfunden. Für 14 von 16 Wünschen liegt ein echtes Produktfoto vor (von der jeweiligen Hersteller-/Markenseite heruntergeladen, siehe `assets/images/<id>/`); Claude-Gutschein und o2-Upgrade bleiben als Dienstleistung/Gutschein ohne Foto. Alle Preise wurden live direkt auf der jeweiligen offiziellen Shop-Seite (bzw. bei zwei Posten auf einer verlässlichen Händlerseite) abgelesen – Stand der Recherche, Preise können sich seitdem geändert haben.
 
-| # | Name (kurz) | Foto | Wichtigkeit | Badges | Preis-Status | Link |
+| # | Name (kurz) | Foto | Wichtigkeit | Badges | Preis (Stand der Recherche) | Link |
 |---|---|---|---|---|---|---|
-| 1 | Homeserver (GMKtec NucBox M5 Ultra, 1 TB / 32 GB RAM) | ✅ | 11/10 | 🏠 11/10 | Offen – Preis schwankt stark je Händler | [GMKtec offizieller Shop](https://de.gmktec.com/products/gmktec-nucbox-m5-ultra-amd-ryzen-7-7730u) |
-| 2 | Claude-Gutschein „Könnte nicht ohne leben" (3 Monate Claude-Abo) | – (Gutschein) | Höchste Stufe (über allem) | 👑 Höchste Priorität | Kein Shop-Preis – persönlicher Gutschein | Kein Produktlink (siehe unten) |
-| 3 | iPhone 15 Pro | ✅ (Apple-Pressefoto) | 8,8/10 | – | Offen – Preis je nach Amazon-Angebot/Restbestand | [Amazon.de Produktsuche „iPhone 15 Pro"](https://www.amazon.de/s?k=iPhone+15+Pro) *(ASIN beim Kauf eintragen)* |
-| 4 | DJI Osmo Action 4 (+ ca. 30 € Zubehör) | ✅ | 8,8/10 (Sehr wichtig) | 👨‍👩‍👧‍👦 Für die ganze Familie | Offen – Amazon-Deal-Preis schwankt stark (zuletzt ca. 170–230 €) | [DJI offizieller Shop](https://www.dji.com/de/osmo-action-4) |
-| 5 | AYN Thor Pro (12 GB / 256 GB) | ✅ | 7/10 | – | Offen – offizieller Basispreis (Lite-Modell) $259, Pro-Preis live im Shop prüfen | [AYN offizieller Shop](https://www.ayntec.com/products/ayn-thor) |
-| 6 | Raspberry Pi 4 (4 GB RAM) | ✅ | 8/10 | – | Offen – aktueller Preis im Shop zu prüfen | [Raspberry Pi offizieller Shop](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) |
+| 1 | Homeserver (GMKtec NucBox M5 Ultra, 1 TB / 32 GB RAM) | ✅ | 11/10 | 🏠 11/10 | **559,99 €** (offizieller GMKtec-DE-Shop) | [GMKtec offizieller Shop](https://de.gmktec.com/products/gmktec-nucbox-m5-ultra-amd-ryzen-7-7730u) |
+| 2 | Claude-Gutschein „Könnte nicht ohne leben" (3 Monate Claude-Abo) | Claude-Icon statt Foto | Höchste Stufe (über allem) | 👑 Höchste Priorität | Kein Shop-Preis – persönlicher Gutschein | Kein Produktlink (siehe unten) |
+| 3 | iPhone 15 Pro | ✅ (Apple-Pressefoto) | 8,8/10 | – | Offen – Apple führt es nicht mehr regulär, Preis je nach Amazon-Angebot/Restbestand | [Amazon.de Produktsuche „iPhone 15 Pro"](https://www.amazon.de/s?k=iPhone+15+Pro) *(ASIN beim Kauf eintragen)* |
+| 4 | DJI Osmo Action 4 (+ ca. 30 € Zubehör) | ✅ | 8,8/10 (Sehr wichtig) | 👨‍👩‍👧‍👦 Für die ganze Familie | **189,00 €** (Standard-Combo, Angebotspreis im offiziellen DJI-Store; regulär 239 €) | [DJI offizieller Shop](https://www.dji.com/de/osmo-action-4) |
+| 5 | AYN Thor Pro (12 GB / 256 GB) | ✅ | 7/10 | – | **409,00 $** (offizieller US-Preis bei ayntec.com; EUR kann abweichen) | [AYN offizieller Shop](https://www.ayntec.com/products/ayn-thor) |
+| 6 | Raspberry Pi 4 (4 GB RAM) | ✅ | 8/10 | – | ca. 40–110 € (Preisvergleich zeigt stark schwankende Händlerpreise, kein eindeutiger Einzelpreis auffindbar) | [Raspberry Pi offizieller Shop](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) |
 | 7 | O2 Internet-Upgrade auf 150 Mbit/s | – (Dienstleistung) | Extrem hoch (10/10) | 👨‍👩‍👧‍👦 Für die ganze Familie, 🤝 Auch für Freunde | Kein Aufpreis erfunden – monatlicher Mehrpreis muss bei o2 erfragt werden | [o2 Mein o2 / Tarif-Upgrade](https://www.o2online.de/dsl-internet/) |
-| 8 | 256-GB-microSD-Karte (SanDisk Extreme microSDXC 256 GB) | ✅ | 6/10 | – | Offen – Amazon-Preis schwankt stark (zuletzt zwischen ca. 30 € und 70 € gesehen) | [Amazon.de Produktsuche „SanDisk Extreme microSDXC 256GB"](https://www.amazon.de/s?k=SanDisk+Extreme+microSDXC+256GB) *(ASIN beim Kauf eintragen)* |
-| 9 | Guild Wars 2: Heart of Thorns + Path of Fire | ✅ | Noch nicht festgelegt – entfällt ggf. vor Weihnachten | ⏳ Nur solange ich bis Weihnachten noch spiele | ca. 30 € (Expansion Starter Pack, offizieller Bundle-Preis) | [Guild Wars 2 offizieller Shop](https://www.guildwars2.com/de/shop/) |
-| 10 | PS5 Controller (DualSense) | ✅ | 6/10 | – | Offen – Listenpreis zuletzt ca. 75 €, Angebote schwanken | [PlayStation offizielle Produktseite](https://www.playstation.com/de-de/accessories/dualsense-wireless-controller/) |
-| 11 | Gaming-Headset (Attack Shark L80) | ✅ | 8/10 | – | **29,95 €** (Verkaufspreis im offiziellen DE-Shop, Stand der Recherche; MSRP 32,95 €) | [Attack Shark offizieller DE-Shop](https://attackshark.de/products/l80-wireless-gaming-headset-noise-canceling) |
-| 12 | 3D-Drucker (Bambu Lab A1 mini) | ✅ | 4/10 | – | Offen – Preis abhängig von Bundle (Solo vs. Combo mit AMS Lite) | [Bambu Lab offizieller Shop](https://eu.store.bambulab.com/collections/a1-series/products/a1-mini) |
-| 13 | Webcam (Anker PowerConf C200) | ✅ | 7,5/10 | – | Offen – Preis schwankt je nach Angebot | [Anker Japan offizieller Shop](https://www.ankerjapan.com/products/a3369) *(für DE-Preis Amazon.de prüfen)* |
-| 14 | AirTags | ✅ | 6/10 | – | Offen – aktueller Preis auf Apple-Seite zu prüfen | [Apple.de Shop](https://www.apple.com/de/shop/buy-airtag/airtag) |
-| 15 | Smart Fridge (Samsung Family Hub RS90F67BETEF) | ✅ | 7/10 | – | **1.999,00 €** (Verkaufspreis auf samsung.com/de, Stand der Recherche) | [Samsung Family Hub Serie](https://www.samsung.com/de/refrigerators/side-by-side/refrigerator-sbs-family-hub-614l-silver-rs90f67betef/) |
-| 16 | Rolex Yacht-Master II Gold | ✅ (generisches Kollektionsfoto) | Spaßwunsch (keine ernste Skala) | 😂 Nur Spaß / Troll-Wunsch | Offen – Referenz-Preis laut rolex.com Gelbgold-Modell ca. 57.800 USD, Preis auf rolex.de zu verifizieren | [Rolex offizielle Seite](https://www.rolex.com/de-de/watches/yacht-master-ii) |
+| 8 | 256-GB-microSD-Karte (SanDisk Extreme microSDXC 256 GB) | ✅ | 6/10 | – | **69,99 $** (offizieller SanDisk-US-Shop; EUR-Preis bei Amazon.de kann abweichen) | [Amazon.de Produktsuche „SanDisk Extreme microSDXC 256GB"](https://www.amazon.de/s?k=SanDisk+Extreme+microSDXC+256GB) *(ASIN beim Kauf eintragen)* |
+| 9 | Guild Wars 2: Heart of Thorns + Path of Fire | ✅ | Noch nicht festgelegt – entfällt ggf. vor Weihnachten | ⏳ Nur solange ich bis Weihnachten noch spiele | **30,00 €** (Expansion Starter Pack, offizieller Bundle-Preis) | [Guild Wars 2 offizieller Shop](https://www.guildwars2.com/de/shop/) |
+| 10 | PS5 Controller (DualSense) | ✅ | 6/10 | – | **74,99 €** (Standardfarbe, laut Händlerpreis/UVP-Spanne) | [PlayStation offizielle Produktseite](https://www.playstation.com/de-de/accessories/dualsense-wireless-controller/) |
+| 11 | Gaming-Headset (Attack Shark L80) | ✅ | 8/10 | – | **29,95 €** (offizieller DE-Shop; MSRP 32,95 €) | [Attack Shark offizieller DE-Shop](https://attackshark.de/products/l80-wireless-gaming-headset-noise-canceling) |
+| 12 | 3D-Drucker (Bambu Lab A1 mini) | ✅ | 4/10 | – | **179,00 €** (Solo, Angebotspreis im offiziellen EU-Store; regulär 189 €) | [Bambu Lab offizieller Shop](https://eu.store.bambulab.com/collections/a1-series/products/a1-mini) |
+| 13 | Webcam (Anker PowerConf C200) | ✅ | 7,5/10 | – | **54,72 €** (Galaxus.de, Live-Preis; Anker selbst zeigt keinen EUR-Preis) | [Anker Japan offizieller Shop](https://www.ankerjapan.com/products/a3369) *(für DE-Kauf Amazon.de/Galaxus.de nutzen)* |
+| 14 | AirTags (4er-Pack) | ✅ | 6/10 | – | **119,00 €** (offizieller Apple.de-Shop) | [Apple.de Shop](https://www.apple.com/de/shop/buy-airtag/airtag) |
+| 15 | Smart Fridge (Samsung Family Hub RS90F67BETEF) | ✅ | 7/10 | – | **1.999,00 €** (offizieller samsung.com/de-Shop) | [Samsung Family Hub Serie](https://www.samsung.com/de/refrigerators/side-by-side/refrigerator-sbs-family-hub-614l-silver-rs90f67betef/) |
+| 16 | Rolex Yacht-Master II Gold | ✅ | 6/10 | – | **ca. 57.800 $** (Gelbgold-Modell, offizielle rolex.com-Preisangabe) | [Rolex offizielle Seite](https://www.rolex.com/de-de/watches/yacht-master-ii) |
 
-**Hinweis zu #15 (Smart Fridge):** Auf ausdrücklichen Wunsch wird dieser Eintrag auf der Website wie ein ganz normaler, ernst gemeinter Wunsch dargestellt – ohne Troll-Badge, ohne humorvollen Unterton. Nur hier in der internen Projektdokumentation ist festgehalten, dass es sich eigentlich ähnlich wie bei der Rolex um einen augenzwinkernden Wunsch handelt.
+Rolex und Smart Fridge laufen jetzt beide als ganz normale, ernst dargestellte Wünsche ohne Spaß-/Troll-Badge und ohne Sonderbehandlung in der Wichtigkeits-Skala.
 
 ### Claude-Gutschein – Sonderbehandlung
 
 Kein Amazon-/Shop-Link, da es sich um einen persönlichen Gutschein handelt. Darstellung:
 - Eigene, optisch auffällige Kartenvariante (z. B. andere Hintergrundfarbe/-verzierung statt Produktfoto).
+- Kleines offizielles Claude-Icon (von claude.ai, `assets/images/claude-gutschein/icon.svg`) als Badge unten links im Bildbereich.
 - Statt „Auf Amazon ansehen" entfällt der Link-Button komplett.
 - Statt Preis: Direkt sichtbarer Text „Persönlicher Gutschein – 3 Monate Claude-Abo".
 - Badge 👑 „Höchste Priorität", oberhalb der normalen Wichtigkeits-Skala positioniert.
@@ -212,19 +213,14 @@ Diese Liste wird mit den Daten aus Abschnitt 5 befüllt, sobald Bilder vorliegen
 
 **Produktbilder:** Für 14 von 16 Wünschen liegt jetzt ein echtes Foto von der jeweiligen Hersteller-/Markenseite vor (`assets/images/<id>/1.*`, mit Zustimmung heruntergeladen). Claude-Gutschein und o2-Upgrade bleiben bewusst ohne Foto (Dienstleistung/Gutschein, Emoji-Platzhalter reicht). Das Rolex-Foto ist ein generisches Kollektionsbild (nicht exakt das Gelbgold-Modell) und beim Homeserver sowie bei der SD-Karte zeigt das Foto eine Beispiel-Variante (32 GB RAM bzw. 32 GB Kapazität des gleichen Kartendesigns) – optisch aber repräsentativ.
 
-**Preise, die aktuell nicht verlässlich/aktuell recherchierbar waren** (Amazon-/Marktpreise schwanken ständig, hier wurde bewusst nichts erfunden; alle Modell-/Variantenfragen sind geklärt – offen ist nur noch der jeweils aktuelle Kauf-Preis bzw. die ASIN kurz vor dem Launch):
-- Homeserver (GMKtec NucBox M5 Ultra, 1 TB / 32 GB RAM)
-- iPhone 15 Pro (Link zeigt auf Amazon.de-Angebot statt Apple Shop, da nicht mehr regulär bei Apple)
-- DJI Osmo Action 4 Zubehör (die genannten ~30 € sind vom Nutzer vorgegeben, nicht recherchiert)
-- AYN Thor Pro, 12 GB / 256 GB (offizieller Shop zeigt nur den Lite-Basispreis $259 vor Variantenwahl)
-- Raspberry Pi 4, 4 GB RAM
-- o2-Upgrade – monatlicher Mehrpreis muss direkt bei o2/Mein o2 erfragt werden, da online nicht einsehbar
-- PS5 Controller, Bambu Lab A1 mini, Anker PowerConf C200, AirTags, Rolex – Richtwerte in Abschnitt 5 genannt, aber vor Launch im jeweiligen Shop zu bestätigen
-- 256-GB-microSD-Karte (SanDisk Extreme)
-
-**Live bestätigte Preise** (direkt auf der offiziellen Shop-Seite abgelesen, Stand der Recherche – vor Launch trotzdem nochmal prüfen, da sich auch offizielle Preise ändern können):
-- Gaming-Headset (Attack Shark L80): 29,95 € auf attackshark.de
-- Smart Fridge (Samsung Family Hub RS90F67BETEF): 1.999,00 € auf samsung.com/de
+**Alle Preise wurden jetzt live recherchiert** (Abschnitt 5 zeigt jeden Wert mit Quelle). Trotzdem bleiben ein paar Einschränkungen bestehen, da bewusst nichts erfunden wurde, wo keine verlässliche Zahl auffindbar war:
+- Raspberry Pi 4 (4 GB): kein eindeutiger Einzelpreis auffindbar, daher als Spanne (ca. 40–110 €) angegeben statt einer geratenen Einzelzahl.
+- AYN Thor Pro und SD-Karte: offizieller Preis nur in USD auffindbar (ayntec.com bzw. sandisk.com US-Shop) – der tatsächliche EUR-Preis beim Kauf kann abweichen.
+- iPhone 15 Pro: Apple führt es nicht mehr regulär, daher weiterhin "Noch nicht festgelegt" und Link auf Amazon.de-Angebot statt Apple Shop.
+- o2-Upgrade: monatlicher Mehrpreis muss weiterhin direkt bei o2/Mein o2 erfragt werden, da online nicht einsehbar.
+- DJI Osmo Action 4 Zubehör (~30 €) ist weiterhin eine Nutzerangabe, nicht recherchiert.
+- Anker PowerConf C200: Preis stammt von Galaxus.de (Live-Preis), nicht von Anker selbst, da dort kein EUR-Preis auffindbar war.
+- Alle übrigen Preise (Homeserver, DJI, Gaming-Headset, 3D-Drucker, PS5-Controller, AirTags, Smart Fridge, Guild Wars 2) wurden direkt auf der jeweiligen offiziellen Shop-Seite abgelesen – Stand der Recherche, vor dem eigentlichen Launch trotzdem nochmal prüfen, da sich auch offizielle Preise ändern können.
 
 **Konzeptionelle offene Punkte (aus der ersten Planungsrunde, weiterhin offen):**
 - Ob „Nein"-Wünsche irgendwo einsehbar/rückgängig machbar sein sollen (aktuell: ja, über Zurück-Navigation).

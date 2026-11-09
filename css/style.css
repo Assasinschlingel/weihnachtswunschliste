@@ -115,6 +115,19 @@ body {
 .media-nav-next { right: 10px; }
 .media-nav:hover { background: #fff; }
 
+.media-brand-icon {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  left: 14px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 50%;
+  background: #1a1a19;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
 .media-photo-hint {
   position: absolute;
   bottom: 10px;

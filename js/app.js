@@ -242,9 +242,10 @@ function renderRatingButtons(wish, rating) {
   setupDodge(wish.evasiveNoButton);
   hint.style.display = wish.evasiveNoButton ? "block" : "none";
 
-  // Startposition pro Karte zurücksetzen
-  noBtn.style.left = "380px";
-  noBtn.style.top = "20px";
+  // Startposition pro Karte zurücksetzen: zentriert neben Ja, bis zum ersten Ausweich-Trigger
+  noBtn.style.position = "";
+  noBtn.style.left = "";
+  noBtn.style.top = "";
 }
 
 // ---- Ausweich-Minigame für den Nein-Button ----
@@ -323,6 +324,7 @@ function placeNoButtonRandomly() {
     top + btnH > avoid.top
   );
 
+  noBtn.style.position = "absolute";
   noBtn.style.left = `${left}px`;
   noBtn.style.top = `${top}px`;
 }

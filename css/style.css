@@ -261,6 +261,10 @@ body {
   margin-bottom: 8px;
   border-radius: 16px;
   background: #f7f9ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
 }
 
 .card-top-tier .rating-stage,
@@ -270,10 +274,9 @@ body {
 
 .btn-yes,
 .btn-no {
-  position: absolute;
-  top: 55px;
-  left: 20px;
-  min-width: 110px;
+  min-width: 160px;
+  padding: 20px 36px;
+  font-size: 19px;
 }
 
 .btn-yes {
@@ -286,7 +289,6 @@ body {
 .btn-no {
   background: var(--accent-no);
   color: #fff;
-  left: 380px;
 }
 
 .btn-no:hover { background: var(--accent-no-dark); }

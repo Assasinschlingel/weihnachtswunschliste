@@ -20,10 +20,41 @@
 body {
   margin: 0;
   min-width: 1024px;
-  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  font-family: "Nunito", "Segoe UI", Roboto, Arial, sans-serif;
   background: radial-gradient(circle at top, var(--bg) 0%, var(--bg-deep) 70%);
   color: #fff;
   min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.snowfall {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.snowflake {
+  position: absolute;
+  top: -5%;
+  color: #fff;
+  animation-name: snow-fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes snow-fall {
+  from { transform: translateY(-10vh) translateX(0); }
+  to { transform: translateY(110vh) translateX(var(--drift, 0)); }
+}
+
+.app-shell,
+.cart-widget,
+.cart-modal {
+  position: relative;
+  z-index: 2;
 }
 
 .app-shell {

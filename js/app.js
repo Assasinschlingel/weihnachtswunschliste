@@ -84,7 +84,7 @@ function renderWish() {
   const isRevealed = !!revealed[wish.id];
   const rating = ratings[wish.id] || null;
 
-  card.className = "card" + (wish.specialTier === "top" ? " card-top-tier" : "") + (wish.isGagGift ? " card-gag" : "");
+  card.className = "card" + (wish.specialTier === "top" ? " card-top-tier" : "") + (wish.isGagGift ? " card-gag" : "") + (wish.glow ? " card-glow" : "");
 
   currentImageIndex = 0;
   renderMedia(wish);

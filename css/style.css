@@ -63,6 +63,10 @@ body {
   box-shadow: 0 24px 60px rgba(244, 197, 66, 0.35);
 }
 
+.card-glow {
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35), 0 0 50px rgba(120, 150, 255, 0.75);
+}
+
 .card-gag {
   background: linear-gradient(135deg, #fff7e0, #ffe9c7);
 }

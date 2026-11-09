@@ -118,7 +118,7 @@ function renderMedia(wish) {
   } else {
     img.style.display = "none";
     img.removeAttribute("src");
-    emoji.style.display = "block";
+    emoji.style.display = "flex";
     emoji.textContent = wish.emoji;
     hint.style.display = "block";
   }
@@ -175,7 +175,7 @@ function renderBadges(wish) {
     const def = BADGE_DEFS[key];
     if (!def) return;
     const pill = document.createElement("span");
-    pill.className = "badge-pill";
+    pill.className = `badge-pill badge-${key}`;
     pill.textContent = `${def.emoji} ${def.label}`;
     row.appendChild(pill);
   });

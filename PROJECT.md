@@ -81,26 +81,26 @@ Badges werden als kleine farbige Pillen über oder unter dem Namen angezeigt, un
 
 ## 5. Die 16 Wünsche
 
-Alle Preise und Links wurden recherchiert, nicht erfunden. Wo aktuell kein verlässlicher, stabiler Preis/Link auffindbar war, steht das explizit als offener Punkt (Abschnitt 9) – lieber „noch zu prüfen" als eine geratene Zahl.
+Alle Preise und Links wurden recherchiert, nicht erfunden. Wo aktuell kein verlässlicher, stabiler Preis/Link auffindbar war, steht das explizit als offener Punkt (Abschnitt 11) – lieber „noch zu prüfen" als eine geratene Zahl. Für 14 von 16 Wünschen liegt inzwischen ein echtes Produktfoto vor (von der jeweiligen Hersteller-/Markenseite heruntergeladen, siehe `assets/images/<id>/`); Claude-Gutschein und o2-Upgrade bleiben als Dienstleistung/Gutschein ohne Foto.
 
-| # | Name (kurz) | Wichtigkeit | Badges | Preis-Status | Link |
-|---|---|---|---|---|---|
-| 1 | Homeserver (GMKtec NucBox M5 Ultra, 1 TB / 32 GB RAM) | 11/10 | 🏠 11/10 | Offen – Preis schwankt stark je Händler | [GMKtec offizieller Shop](https://de.gmktec.com/products/gmktec-nucbox-m5-ultra-amd-ryzen-7-7730u) |
-| 2 | Claude-Gutschein „Könnte nicht ohne leben" (3 Monate Claude-Abo) | Höchste Stufe (über allem) | 👑 Höchste Priorität | Kein Shop-Preis – persönlicher Gutschein | Kein Produktlink (siehe unten) |
-| 3 | iPhone 15 Pro | 8,8/10 | – | Offen – Preis je nach Amazon-Angebot/Restbestand | [Amazon.de Produktsuche „iPhone 15 Pro"](https://www.amazon.de/s?k=iPhone+15+Pro) *(ASIN beim Kauf eintragen)* |
-| 4 | DJI Osmo Action 4 (+ ca. 30 € Zubehör) | 8,8/10 (Sehr wichtig) | 👨‍👩‍👧‍👦 Für die ganze Familie | Offen – Amazon-Deal-Preis schwankt stark (zuletzt ca. 170–230 €) | [DJI offizieller Shop](https://www.dji.com/de/osmo-action-4) |
-| 5 | AYN Thor Pro (12 GB / 256 GB) | 7/10 | – | Offen – mehrere Preiserhöhungen 2026, aktueller Preis im Shop zu prüfen | [AYN offizieller Shop](https://ayn.gg) |
-| 6 | Raspberry Pi 4 (4 GB RAM) | 8/10 | – | Offen – aktueller Preis im Shop zu prüfen | [Raspberry Pi offizieller Shop](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) |
-| 7 | O2 Internet-Upgrade auf 150 Mbit/s | Extrem hoch (10/10) | 👨‍👩‍👧‍👦 Für die ganze Familie, 🤝 Auch für Freunde | Kein Aufpreis erfunden – monatlicher Mehrpreis muss bei o2 erfragt werden | [o2 Mein o2 / Tarif-Upgrade](https://www.o2online.de/dsl-internet/) |
-| 8 | 256-GB-microSD-Karte (SanDisk Extreme microSDXC 256 GB) | 6/10 | – | Offen – Amazon-Preis schwankt stark (zuletzt zwischen ca. 30 € und 70 € gesehen) | [Amazon.de Produktsuche „SanDisk Extreme microSDXC 256GB"](https://www.amazon.de/s?k=SanDisk+Extreme+microSDXC+256GB) *(ASIN beim Kauf eintragen)* |
-| 9 | Guild Wars 2: Heart of Thorns + Path of Fire | Noch nicht festgelegt – entfällt ggf. vor Weihnachten | ⏳ Nur solange ich bis Weihnachten noch spiele | ca. 30 € (Expansion Starter Pack, offizieller Bundle-Preis) | [Guild Wars 2 offizieller Shop](https://www.guildwars2.com/de/shop/) |
-| 10 | PS5 Controller (DualSense) | 6/10 | – | Offen – Listenpreis zuletzt ca. 75 €, Angebote schwanken | [PlayStation Direct](https://direct.playstation.com/de-de/) |
-| 11 | Gaming-Headset (Attack Shark L80) | 8/10 | – | ca. 28–30 € (Herstellerangabe), Amazon-Preis zusätzlich zu prüfen | [Attack Shark offizieller Shop](https://attackshark.com/products/l80-wireless-gaming-headset-noise-canceling) |
-| 12 | 3D-Drucker (Bambu Lab A1 mini) | 4/10 | – | Offen – Preis abhängig von Bundle (Solo vs. Combo mit AMS Lite) | [Bambu Lab offizieller Shop](https://eu.store.bambulab.com/collections/a1-series/products/a1-mini) |
-| 13 | Webcam (Anker PowerConf C200) | 7,5/10 | – | Offen – Preis schwankt je nach Angebot | [Anker offizieller Shop](https://www.anker.com/de-de) *(Produktseite verifizieren)* |
-| 14 | AirTags | 6/10 | – | Offen – aktueller Preis auf Apple-Seite zu prüfen | [Apple.de Shop](https://www.apple.com/de/shop/buy-airtag/airtag) |
-| 15 | Smart Fridge (Samsung Family Hub, z. B. RS6HA8891SL/EG) | 7/10 | – | Offen – je nach Händler ca. 2.000–3.000 € | [Samsung Family Hub Serie](https://www.samsung.com/de/refrigerators/side-by-side/refrigerator-sbs-family-hub-614l-silver-rs90f67betef/) |
-| 16 | Rolex Yacht-Master II Gold | Spaßwunsch (keine ernste Skala) | 😂 Nur Spaß / Troll-Wunsch | Offen – Referenz-Preis laut rolex.com Gelbgold-Modell ca. 57.800 USD, Preis auf rolex.de zu verifizieren | [Rolex offizielle Seite](https://www.rolex.com/de-de/watches/yacht-master-ii) |
+| # | Name (kurz) | Foto | Wichtigkeit | Badges | Preis-Status | Link |
+|---|---|---|---|---|---|---|
+| 1 | Homeserver (GMKtec NucBox M5 Ultra, 1 TB / 32 GB RAM) | ✅ | 11/10 | 🏠 11/10 | Offen – Preis schwankt stark je Händler | [GMKtec offizieller Shop](https://de.gmktec.com/products/gmktec-nucbox-m5-ultra-amd-ryzen-7-7730u) |
+| 2 | Claude-Gutschein „Könnte nicht ohne leben" (3 Monate Claude-Abo) | – (Gutschein) | Höchste Stufe (über allem) | 👑 Höchste Priorität | Kein Shop-Preis – persönlicher Gutschein | Kein Produktlink (siehe unten) |
+| 3 | iPhone 15 Pro | ✅ (Apple-Pressefoto) | 8,8/10 | – | Offen – Preis je nach Amazon-Angebot/Restbestand | [Amazon.de Produktsuche „iPhone 15 Pro"](https://www.amazon.de/s?k=iPhone+15+Pro) *(ASIN beim Kauf eintragen)* |
+| 4 | DJI Osmo Action 4 (+ ca. 30 € Zubehör) | ✅ | 8,8/10 (Sehr wichtig) | 👨‍👩‍👧‍👦 Für die ganze Familie | Offen – Amazon-Deal-Preis schwankt stark (zuletzt ca. 170–230 €) | [DJI offizieller Shop](https://www.dji.com/de/osmo-action-4) |
+| 5 | AYN Thor Pro (12 GB / 256 GB) | ✅ | 7/10 | – | Offen – offizieller Basispreis (Lite-Modell) $259, Pro-Preis live im Shop prüfen | [AYN offizieller Shop](https://www.ayntec.com/products/ayn-thor) |
+| 6 | Raspberry Pi 4 (4 GB RAM) | ✅ | 8/10 | – | Offen – aktueller Preis im Shop zu prüfen | [Raspberry Pi offizieller Shop](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) |
+| 7 | O2 Internet-Upgrade auf 150 Mbit/s | – (Dienstleistung) | Extrem hoch (10/10) | 👨‍👩‍👧‍👦 Für die ganze Familie, 🤝 Auch für Freunde | Kein Aufpreis erfunden – monatlicher Mehrpreis muss bei o2 erfragt werden | [o2 Mein o2 / Tarif-Upgrade](https://www.o2online.de/dsl-internet/) |
+| 8 | 256-GB-microSD-Karte (SanDisk Extreme microSDXC 256 GB) | ✅ | 6/10 | – | Offen – Amazon-Preis schwankt stark (zuletzt zwischen ca. 30 € und 70 € gesehen) | [Amazon.de Produktsuche „SanDisk Extreme microSDXC 256GB"](https://www.amazon.de/s?k=SanDisk+Extreme+microSDXC+256GB) *(ASIN beim Kauf eintragen)* |
+| 9 | Guild Wars 2: Heart of Thorns + Path of Fire | ✅ | Noch nicht festgelegt – entfällt ggf. vor Weihnachten | ⏳ Nur solange ich bis Weihnachten noch spiele | ca. 30 € (Expansion Starter Pack, offizieller Bundle-Preis) | [Guild Wars 2 offizieller Shop](https://www.guildwars2.com/de/shop/) |
+| 10 | PS5 Controller (DualSense) | ✅ | 6/10 | – | Offen – Listenpreis zuletzt ca. 75 €, Angebote schwanken | [PlayStation offizielle Produktseite](https://www.playstation.com/de-de/accessories/dualsense-wireless-controller/) |
+| 11 | Gaming-Headset (Attack Shark L80) | ✅ | 8/10 | – | **29,95 €** (Verkaufspreis im offiziellen DE-Shop, Stand der Recherche; MSRP 32,95 €) | [Attack Shark offizieller DE-Shop](https://attackshark.de/products/l80-wireless-gaming-headset-noise-canceling) |
+| 12 | 3D-Drucker (Bambu Lab A1 mini) | ✅ | 4/10 | – | Offen – Preis abhängig von Bundle (Solo vs. Combo mit AMS Lite) | [Bambu Lab offizieller Shop](https://eu.store.bambulab.com/collections/a1-series/products/a1-mini) |
+| 13 | Webcam (Anker PowerConf C200) | ✅ | 7,5/10 | – | Offen – Preis schwankt je nach Angebot | [Anker Japan offizieller Shop](https://www.ankerjapan.com/products/a3369) *(für DE-Preis Amazon.de prüfen)* |
+| 14 | AirTags | ✅ | 6/10 | – | Offen – aktueller Preis auf Apple-Seite zu prüfen | [Apple.de Shop](https://www.apple.com/de/shop/buy-airtag/airtag) |
+| 15 | Smart Fridge (Samsung Family Hub RS90F67BETEF) | ✅ | 7/10 | – | **1.999,00 €** (Verkaufspreis auf samsung.com/de, Stand der Recherche) | [Samsung Family Hub Serie](https://www.samsung.com/de/refrigerators/side-by-side/refrigerator-sbs-family-hub-614l-silver-rs90f67betef/) |
+| 16 | Rolex Yacht-Master II Gold | ✅ (generisches Kollektionsfoto) | Spaßwunsch (keine ernste Skala) | 😂 Nur Spaß / Troll-Wunsch | Offen – Referenz-Preis laut rolex.com Gelbgold-Modell ca. 57.800 USD, Preis auf rolex.de zu verifizieren | [Rolex offizielle Seite](https://www.rolex.com/de-de/watches/yacht-master-ii) |
 
 **Hinweis zu #15 (Smart Fridge):** Auf ausdrücklichen Wunsch wird dieser Eintrag auf der Website wie ein ganz normaler, ernst gemeinter Wunsch dargestellt – ohne Troll-Badge, ohne humorvollen Unterton. Nur hier in der internen Projektdokumentation ist festgehalten, dass es sich eigentlich ähnlich wie bei der Rolex um einen augenzwinkernden Wunsch handelt.
 
@@ -208,25 +208,29 @@ Bewusst so gestaltet, dass neue Wünsche, geänderte Preise/Bilder/Links/Wichtig
 
 Diese Liste wird mit den Daten aus Abschnitt 5 befüllt, sobald Bilder vorliegen und die offenen Punkte (Abschnitt 11) geklärt sind.
 
-## 11. Offene Punkte (müssen vor der Umsetzung/dem Launch geklärt werden)
+## 11. Offene Punkte (müssen vor dem Launch geklärt werden)
 
-**Fehlende Produktbilder:** Für alle 16 Wünsche fehlen noch die tatsächlichen Produktfotos.
+**Produktbilder:** Für 14 von 16 Wünschen liegt jetzt ein echtes Foto von der jeweiligen Hersteller-/Markenseite vor (`assets/images/<id>/1.*`, mit Zustimmung heruntergeladen). Claude-Gutschein und o2-Upgrade bleiben bewusst ohne Foto (Dienstleistung/Gutschein, Emoji-Platzhalter reicht). Das Rolex-Foto ist ein generisches Kollektionsbild (nicht exakt das Gelbgold-Modell) und beim Homeserver sowie bei der SD-Karte zeigt das Foto eine Beispiel-Variante (32 GB RAM bzw. 32 GB Kapazität des gleichen Kartendesigns) – optisch aber repräsentativ.
 
-**Preise, die aktuell nicht verlässlich/aktuell recherchierbar waren** (Amazon-/Marktpreise schwanken ständig, hier wurde bewusst nichts erfunden; alle Modell-/Variantenfragen sind inzwischen geklärt – offen ist nur noch der jeweils aktuelle Kauf-Preis bzw. die ASIN kurz vor dem Launch):
-- Homeserver (GMKtec NucBox M5 Ultra, 1 TB / 32 GB RAM – festgelegt)
-- iPhone 15 Pro (Link zeigt auf Amazon.de-Angebot statt Apple Shop – festgelegt)
+**Preise, die aktuell nicht verlässlich/aktuell recherchierbar waren** (Amazon-/Marktpreise schwanken ständig, hier wurde bewusst nichts erfunden; alle Modell-/Variantenfragen sind geklärt – offen ist nur noch der jeweils aktuelle Kauf-Preis bzw. die ASIN kurz vor dem Launch):
+- Homeserver (GMKtec NucBox M5 Ultra, 1 TB / 32 GB RAM)
+- iPhone 15 Pro (Link zeigt auf Amazon.de-Angebot statt Apple Shop, da nicht mehr regulär bei Apple)
 - DJI Osmo Action 4 Zubehör (die genannten ~30 € sind vom Nutzer vorgegeben, nicht recherchiert)
-- AYN Thor Pro, 12 GB / 256 GB (Variante festgelegt)
-- Raspberry Pi 4, 4 GB RAM (Variante festgelegt)
+- AYN Thor Pro, 12 GB / 256 GB (offizieller Shop zeigt nur den Lite-Basispreis $259 vor Variantenwahl)
+- Raspberry Pi 4, 4 GB RAM
 - o2-Upgrade – monatlicher Mehrpreis muss direkt bei o2/Mein o2 erfragt werden, da online nicht einsehbar
 - PS5 Controller, Bambu Lab A1 mini, Anker PowerConf C200, AirTags, Rolex – Richtwerte in Abschnitt 5 genannt, aber vor Launch im jeweiligen Shop zu bestätigen
-- 256-GB-microSD-Karte (SanDisk Extreme), Gaming-Headset (Attack Shark L80), Smart Fridge (Samsung Family Hub) – Modelle festgelegt, genauer Kauf-Preis/ASIN aber noch offen (siehe Abschnitt 5)
+- 256-GB-microSD-Karte (SanDisk Extreme)
+
+**Live bestätigte Preise** (direkt auf der offiziellen Shop-Seite abgelesen, Stand der Recherche – vor Launch trotzdem nochmal prüfen, da sich auch offizielle Preise ändern können):
+- Gaming-Headset (Attack Shark L80): 29,95 € auf attackshark.de
+- Smart Fridge (Samsung Family Hub RS90F67BETEF): 1.999,00 € auf samsung.com/de
 
 **Konzeptionelle offene Punkte (aus der ersten Planungsrunde, weiterhin offen):**
 - Ob „Nein"-Wünsche irgendwo einsehbar/rückgängig machbar sein sollen (aktuell: ja, über Zurück-Navigation).
 - Feintuning der Wichtigkeits-Visualisierung (Sterne vs. Balken vs. Badges) und der Sonderstufe für den Claude-Gutschein.
-- Exakte ASIN je Amazon-Produkt (erst ablesbar, sobald echte Produktseiten-Links vom Nutzer vorliegen oder die Produktbilder/Links final bestätigt sind).
+- Exakte ASIN je Amazon-Produkt (erst ablesbar, sobald echte Produktseiten-Links/ASINs final bestätigt sind).
 
 ## 12. Nächste Schritte
 
-Alle Modell-/Variantenfragen sind geklärt. Es fehlen jetzt nur noch: Produktbilder und die final im jeweiligen Shop geprüften Preise/ASINs (siehe Abschnitt 11). Sobald diese vorliegen, kann mit der vollständigen Programmierung gemäß diesem Konzept begonnen werden.
+Die Website ist implementiert (siehe `index.html`, `css/`, `js/`) und nur für Desktop ausgelegt. Vor dem Launch auf GitHub Pages sollten noch die in Abschnitt 11 gelisteten Live-Preise/ASINs geprüft werden.

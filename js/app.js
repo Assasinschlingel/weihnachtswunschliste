@@ -25,6 +25,7 @@ let currentIndex = 0;
 let ratings = {};
 let revealed = {};
 let eHeld = false;
+let currentImageIndex = 0;
 
 const wishById = Object.fromEntries(WISHES.map((w) => [w.id, w]));
 
@@ -51,6 +52,8 @@ function init() {
   document.getElementById("closeCartModal").addEventListener("click", closeCartModal);
   document.getElementById("cartModalBackdrop").addEventListener("click", closeCartModal);
   document.getElementById("addAllToAmazonBtn").addEventListener("click", onAddAllToAmazon);
+  document.getElementById("mediaPrevBtn").addEventListener("click", () => shiftImage(-1));
+  document.getElementById("mediaNextBtn").addEventListener("click", () => shiftImage(1));
 
   renderWish();
   renderCartWidget();
@@ -83,8 +86,8 @@ function renderWish() {
 
   card.className = "card" + (wish.specialTier === "top" ? " card-top-tier" : "") + (wish.isGagGift ? " card-gag" : "");
 
-  document.getElementById("mediaEmoji").textContent = wish.emoji;
-  document.getElementById("mediaPhotoHint").style.display = wish.images.length === 0 ? "block" : "none";
+  currentImageIndex = 0;
+  renderMedia(wish);
   document.getElementById("wishName").textContent = wish.name;
   document.getElementById("wishDescription").textContent = wish.description || "";
 
@@ -95,6 +98,42 @@ function renderWish() {
   renderRatingButtons(wish, rating);
 
   document.getElementById("positionIndicator").textContent = `${currentIndex + 1} / ${order.length}`;
+}
+
+function renderMedia(wish) {
+  const img = document.getElementById("mediaImage");
+  const emoji = document.getElementById("mediaEmoji");
+  const hint = document.getElementById("mediaPhotoHint");
+  const prevBtn = document.getElementById("mediaPrevBtn");
+  const nextBtn = document.getElementById("mediaNextBtn");
+
+  const hasImages = wish.images.length > 0;
+
+  if (hasImages) {
+    img.src = wish.images[currentImageIndex];
+    img.alt = wish.name;
+    img.style.display = "block";
+    emoji.style.display = "none";
+    hint.style.display = "none";
+  } else {
+    img.style.display = "none";
+    img.removeAttribute("src");
+    emoji.style.display = "block";
+    emoji.textContent = wish.emoji;
+    hint.style.display = "block";
+  }
+
+  const showNav = wish.images.length > 1;
+  prevBtn.style.display = showNav ? "flex" : "none";
+  nextBtn.style.display = showNav ? "flex" : "none";
+}
+
+function shiftImage(delta) {
+  const wish = currentWish();
+  if (wish.images.length < 2) return;
+  const len = wish.images.length;
+  currentImageIndex = ((currentImageIndex + delta) % len + len) % len;
+  renderMedia(wish);
 }
 
 function renderImportance(wish) {

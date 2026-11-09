@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<title>Meine Weihnachtswunschliste</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="header">
+      <h1>🎄 Meine Weihnachtswunschliste 2026</h1>
+      <p>Schau dir jeden Wunsch an und bewerte ihn mit Ja oder Nein. Der Preis bleibt verborgen, bis du ihn aufdeckst.</p>
+    </header>
+
+    <main class="card" id="card">
+      <div class="media-tile">
+        <span class="media-emoji" id="mediaEmoji"></span>
+        <span class="media-photo-hint" id="mediaPhotoHint">📷 Foto folgt</span>
+      </div>
+
+      <h2 class="wish-name" id="wishName"></h2>
+      <p class="wish-description" id="wishDescription"></p>
+
+      <div class="importance-box" id="importanceBox"></div>
+      <div class="badge-row" id="badgeRow"></div>
+
+      <div class="price-section" id="priceSection">
+        <button class="btn btn-reveal" id="revealPriceBtn">💶 Preis aufdecken</button>
+        <span class="price-value" id="priceValue"></span>
+      </div>
+
+      <div class="product-link-row">
+        <button class="btn btn-link" id="productLinkBtn"></button>
+      </div>
+
+      <div class="rating-stage" id="ratingStage">
+        <button class="btn btn-yes" id="yesBtn">✓ Ja</button>
+        <button class="btn btn-no" id="noBtn">✕ Nein</button>
+      </div>
+      <p class="dodge-hint" id="dodgeHint">🏃 Dieser Button weicht aus! Halte <strong>E</strong> gedrückt, um ihn zu fixieren.</p>
+    </main>
+
+    <div class="nav-row">
+      <button class="nav-arrow" id="prevBtn">◀</button>
+      <span id="positionIndicator"></span>
+      <button class="nav-arrow" id="nextBtn">▶</button>
+    </div>
+  </div>
+
+  <div class="cart-widget" id="cartWidget"></div>
+
+  <div class="cart-modal" id="cartModal">
+    <div class="cart-modal-backdrop" id="cartModalBackdrop"></div>
+    <div class="cart-modal-content">
+      <button class="close-btn" id="closeCartModal">✕</button>
+      <h2>🛒 Dein Warenkorb</h2>
+      <div id="cartList"></div>
+      <div class="cart-actions">
+        <button class="btn btn-amazon-all" id="addAllToAmazonBtn">Alle zu Amazon hinzufügen</button>
+        <span class="amazon-fallback-hint" id="amazonFallbackHint">Für diese Auswahl liegt noch keine Amazon-ASIN vor – bitte die einzelnen „Beim Anbieter ansehen"-Links oben nutzen.</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/wishes-data.js"></script>
+  <script src="js/order.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/amazon-link.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
